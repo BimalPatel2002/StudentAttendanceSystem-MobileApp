@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">sms</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full name</string>
+    <string name="phone">Phone No</string>
+    <string name="username_email">Username/Email</string>
+    <string name="standard">Standard</string>
+    <string name="Division">Div Ex:A</string>
+    <string name="roll_no">RollNo</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register2">Register</string>
+    <string name="logout">Logout</string>
+    <string name="already_user_login">Already User? Login</string>
+    <string name="rfid_no">Rfid No</string>
+    <string name="email">Email</string>
+    <string name="home">Home</string>
+    <string name="live_location">Live location</string>
+    <string name="about_us">About Us</string>
+    <string name="share">Share</string>
+    <string name="nav_header_title">Student Monitoring System</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="sign_in">sign in</string>
+    <string name="login">login</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="new_here_register">new here? Register</string>
+    <string name="hello_world">Hello world</string>
+    <string name="parent">Parent</string>
+    <string name="teacher">Teacher</string>
+    <string name="enter_as">Enter as</string>
+    <string name="add">Add</string>
+    <string name="Add_Attendance">Add Attendance</string>
+    <string name="add_attendance">Add Attendance,</string>
+    <string name="view_attendance_list">View Attendance List</string>
+</resources>

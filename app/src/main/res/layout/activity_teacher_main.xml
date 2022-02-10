@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_teacher"
+    tools:context=".teacher_MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="50dp"
+        android:text="Welcome,"
+        android:textColor="#CCCFCE"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/lobster"
+        android:text="teacher"
+        android:textColor="#AEBFBD"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/add"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/Add_Attendance"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#1C2D3E"
+        app:cornerRadius="13dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/view_attendance"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/view_attendance_list"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="false"
+        android:textColor="#1C2D3E"
+        app:cornerRadius="13dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logout"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="210dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/logout"
+        android:textColor="#1C2D3E"
+        app:cornerRadius="13dp" />
+</RelativeLayout>
